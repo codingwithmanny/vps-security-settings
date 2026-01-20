@@ -24,13 +24,13 @@ A comprehensive, well-documented bash script that applies security best practice
 Run this command on your fresh Ubuntu 25.04 VPS:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/codingwithmanny/vps-security-settings/main/secure-ubuntu.sh -o secure-ubuntu.sh && chmod +x secure-ubuntu.sh && sudo ./secure-ubuntu.sh
+curl -sSL https://raw.githubusercontent.com/codingwithmanny/vps-security-settings/refs/heads/main/secure-ubuntu.sh -o secure-ubuntu.sh && chmod +x secure-ubuntu.sh && sudo ./secure-ubuntu.sh
 ```
 
 Or with wget:
 
 ```bash
-wget -qO secure-ubuntu.sh https://raw.githubusercontent.com/codingwithmanny/vps-security-settings/main/secure-ubuntu.sh && chmod +x secure-ubuntu.sh && sudo ./secure-ubuntu.sh
+wget -qO secure-ubuntu.sh https://raw.githubusercontent.com/codingwithmanny/vps-security-settings/refs/heads/main/secure-ubuntu.sh && chmod +x secure-ubuntu.sh && sudo ./secure-ubuntu.sh
 ```
 
 ---
@@ -47,12 +47,12 @@ cd vps-security-settings
 
 **Option B: Download just the script**
 ```bash
-curl -O https://raw.githubusercontent.com/codingwithmanny/vps-security-settings/main/secure-ubuntu.sh
+curl -O https://raw.githubusercontent.com/codingwithmanny/vps-security-settings/refs/heads/main/secure-ubuntu.sh
 ```
 
 Or:
 ```bash
-wget https://raw.githubusercontent.com/codingwithmanny/vps-security-settings/main/secure-ubuntu.sh
+wget https://raw.githubusercontent.com/codingwithmanny/vps-security-settings/refs/heads/main/secure-ubuntu.sh
 ```
 
 ### Step 2: Make It Executable
